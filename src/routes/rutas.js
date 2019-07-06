@@ -44,7 +44,7 @@ router.post('/contact', (req, res)=>{
     };
             
     oEmail.enviarCorreo(email)
- 
+    console.log('Enviado');
     res.redirect('/');
 
 });
