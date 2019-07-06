@@ -2,11 +2,14 @@ var express = require('express');
 var router = express.Router();
 var email = require('../email');
 //const nodemon = require('nodemon');
-
+/*
+"host":"SMTP",
+   "service":'GMAIL',
+   */
 const oEmail = new email({
-
-   //"host":"SMTP",
-   "service":'gmail',
+   "host":"smtp.gmail.com",
+   "port":465,
+   "secure":true,
    "auth":{
         "user":"armakaisen@gmail.com",
         "pass":"domingoarmando"
