@@ -1,0 +1,43 @@
+
+    body{
+        font-family: 'Spicy Rice', cursive;  
+        background: #3a7bd5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+
+    .social ul{
+        list-style: none;
+    }
+
+    .social li{
+        display: inline;
+    }
+
+    .social a{
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition: 0.1s ease;
+    }
+
+    .fa-facebook{
+        background: #3b5998;
+    }
+
+    .fa-facebook-messenger{
+        background: #0084ff;
+    }
+    .fa-whatsapp{
+        background: #25d366;
+    }
+
+    .fa-google{
+        background: #d95232;
+    }
+
+    .social a:hover{
+        padding: 10px 25px;
+    }
