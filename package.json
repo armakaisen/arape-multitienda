@@ -1,9 +1,9 @@
 {
   "name": "arape-multitinda",
   "version": "1.0.0",
-  "description": "",
+  "description": "pagina de la tienda pendiente de actualización",
   "main": "server.js",
-    "dependencies": {
+  "dependencies": {
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "express-session": "^1.16.2",
@@ -17,6 +17,10 @@
     "start": "node src/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Armando Martinez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "arape-multitienda"
+  }
 }
